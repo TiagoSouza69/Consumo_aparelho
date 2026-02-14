@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-int main(){  //ínicio main
+int main(){  //ï¿½nicio main
 
 system("color 02");
 	
@@ -16,7 +16,7 @@ system("color 02");
 	
 	
 	
-	printf("Começar programa? Sim ou Não\n ", setlocale(LC_ALL,"Portuguese"));
+	printf("Comeï¿½ar programa? Sim ou Nï¿½o\n ", setlocale(LC_ALL,"Portuguese"));
 	gets(escolha);
 	
 	if (strcmp(escolha,"sim")==0){
@@ -29,23 +29,23 @@ system("color 02");
 	   printf("\nEscreva o nome do aparelho:\n", setlocale(LC_ALL,"Portuguese"));
 	   scanf("%s", &nome);
 	
-	   printf("Escreva a potência do aparelho:\n", setlocale(LC_ALL,"Portuguese"));
+	   printf("Escreva a potï¿½ncia do aparelho:\n", setlocale(LC_ALL,"Portuguese"));
 	   scanf("%d", &p);
 	
-      printf("Escreva o número de horas que o aparelho fica ligado:\n", setlocale(LC_ALL,"Portuguese"));
+      printf("Escreva o nï¿½mero de horas que o aparelho fica ligado:\n", setlocale(LC_ALL,"Portuguese"));
 	  scanf("%f", &h);
 	
-	  printf("Escreva o número de dias no mês que o aparelho fica ligado:\n", setlocale(LC_ALL,"Portuguese"));
+	  printf("Escreva o nï¿½mero de dias no mï¿½s que o aparelho fica ligado:\n", setlocale(LC_ALL,"Portuguese"));
 	  scanf("%d", &d);
 	
 	  pagar = ((p*h*d)/co)*kwt; 
       printf("*************************************************************************************************************\n");	
-	  printf("Dentro de um mês você vai pagar %2f Reais na utilização do %s\n\a", pagar, nome, setlocale(LC_ALL,"Portuguese") ); 
+	  printf("Dentro de um mÃªs vocÃª vai pagar %2f Reais na utilizaï¿½ï¿½o do %s\n\a", pagar, nome, setlocale(LC_ALL,"Portuguese") ); 
 	  printf("********************************************************************************************************\n");
       fprintf(cfPtr,"******************************************************************************************************\n");	
-	  fprintf(cfPtr,"Dentro de um mês você vai pagar %2f Reais na utilização do %s\n\a", pagar, nome, setlocale(LC_ALL,"Portuguese") ); 
+	  fprintf(cfPtr,"Dentro de um mÃªs vocÃª vai pagar %2f Reais na utilizaï¿½ï¿½o do %s\n\a", pagar, nome, setlocale(LC_ALL,"Portuguese") ); 
 	  fprintf(cfPtr,"********************************************************************************************************\n");
-	printf("Continuar com o programa? digite 1 para Sim ou 2 para Não\n ", setlocale(LC_ALL,"Portuguese"));
+	printf("Continuar com o programa? digite 1 para Sim ou 2 para Nï¿½o\n ", setlocale(LC_ALL,"Portuguese"));
 	 scanf("%d", &escolhaint);
 	  //getch();
 	  }
@@ -55,5 +55,7 @@ system("color 02");
 }
 	return 0;
 } // fim do main
+
+//VersÃ£o 
 
 

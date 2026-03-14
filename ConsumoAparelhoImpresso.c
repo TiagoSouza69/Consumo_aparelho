@@ -1,17 +1,13 @@
-ï»¿#include <stdio.h>
+#include <stdio.h>
 #include <locale.h>
 #include <string.h>
 #include <stdlib.h>
 
-<<<<<<< HEAD
-int main(){  //ï¿½nicio main
-=======
 int main(){  //inicio main
->>>>>>> Consumo_aparelho_release
 
 system("color 02");
 	
-	const float kwt = 0.82; //valor do kwt em 2024
+	const float kwt = 0.82; //valor do kwt em 2025
 	char nome[25], escolha[3];
 	int p, d, escolhaint;
 	int co = 1000;
@@ -28,12 +24,7 @@ system("color 02");
 
    	
 	
-<<<<<<< HEAD
-	
-	printf("Comeï¿½ar programa? Sim ou Nï¿½o\n ", setlocale(LC_ALL,"Portuguese"));
-=======
-	printf("ComeÃ§ar programa? Sim ou NÃ£o\n ", setlocale(LC_ALL,"Portuguese"));
->>>>>>> Consumo_aparelho_release
+	printf("Começar programa? Sim ou Não\n ", setlocale(LC_ALL,"Portuguese"));
 	gets(escolha);
 	
 	if (strcmp(escolha,"sim")==0){
@@ -46,45 +37,26 @@ system("color 02");
 	   printf("\nEscreva o nome do aparelho:\n", setlocale(LC_ALL,"Portuguese"));
 	   scanf("%s", &nome);
 	
-<<<<<<< HEAD
-	   printf("Escreva a potï¿½ncia do aparelho:\n", setlocale(LC_ALL,"Portuguese"));
+	   printf("Escreva a potência do aparelho:\n", setlocale(LC_ALL,"Portuguese"));
 	   scanf("%d", &p);
 	
-      printf("Escreva o nï¿½mero de horas que o aparelho fica ligado:\n", setlocale(LC_ALL,"Portuguese"));
+      printf("Escreva o número de horas que o aparelho fica ligado:\n", setlocale(LC_ALL,"Portuguese"));
 	  scanf("%f", &h);
 	
-	  printf("Escreva o nï¿½mero de dias no mï¿½s que o aparelho fica ligado:\n", setlocale(LC_ALL,"Portuguese"));
-=======
-	   printf("Escreva a potÃªncia do aparelho:\n", setlocale(LC_ALL,"Portuguese"));
-	   scanf("%d", &p);
-	
-      printf("Escreva o nÃºmero de horas que o aparelho fica ligado:\n", setlocale(LC_ALL,"Portuguese"));
-	  scanf("%f", &h);
-	
-	  printf("Escreva o nÃºmero de dias no mÃªs que o aparelho fica ligado:\n", setlocale(LC_ALL,"Portuguese"));
->>>>>>> Consumo_aparelho_release
+	  printf("Escreva o número de dias no mês que o aparelho fica ligado:\n", setlocale(LC_ALL,"Portuguese"));
 	  scanf("%d", &d);
 	
 	  pagar = ((p*h*d)/co)*kwt; 
       printf("*************************************************************************************************************\n");	
-<<<<<<< HEAD
-	  printf("Dentro de um mÃªs vocÃª vai pagar %2f Reais na utilizaï¿½ï¿½o do %s\n\a", pagar, nome, setlocale(LC_ALL,"Portuguese") ); 
+	  printf("Dentro de um mês você vai pagar %2f Reais na utilização do %s\n\a", pagar, nome, setlocale(LC_ALL,"Portuguese") ); 
 	  printf("********************************************************************************************************\n");
       fprintf(cfPtr,"******************************************************************************************************\n");	
-	  fprintf(cfPtr,"Dentro de um mÃªs vocÃª vai pagar %2f Reais na utilizaï¿½ï¿½o do %s\n\a", pagar, nome, setlocale(LC_ALL,"Portuguese") ); 
+	  fprintf(cfPtr,"Dentro de um mês você vai pagar %2f Reais na utilização do %s\n\a", pagar, nome, setlocale(LC_ALL,"Portuguese") ); 
 	  fprintf(cfPtr,"********************************************************************************************************\n");
-	printf("Continuar com o programa? digite 1 para Sim ou 2 para Nï¿½o\n ", setlocale(LC_ALL,"Portuguese"));
-=======
-	  printf("Dentro de um mÃªs vocÃª vai pagar %2f Reais na utilizaÃ§Ã£o do %s\n\a", pagar, nome, setlocale(LC_ALL,"Portuguese") ); 
-	  printf("********************************************************************************************************\n");
-      fprintf(cfPtr,"******************************************************************************************************\n");	
-	  fprintf(cfPtr,"Dentro de um mÃªs vocÃª vai pagar %2f Reais na utilizaÃ§Ã£o do %s\n\a", pagar, nome, setlocale(LC_ALL,"Portuguese") ); 
-	  fprintf(cfPtr,"********************************************************************************************************\n");
-	printf("Continuar com o programa? digite 1 para Sim ou 2 para NÃ£o\n ", setlocale(LC_ALL,"Portuguese"));
->>>>>>> Consumo_aparelho_release
+	printf("Continuar com o programa? digite 1 para Sim ou 2 para Não\n ", setlocale(LC_ALL,"Portuguese"));
 	 scanf("%d", &escolhaint);
 	 pagart = pagar + pagart;
-	 printf("Conta atÃ© o momento %2f", pagart, setlocale(LC_ALL,"Portuguese"));
+	 printf("Conta até o momento %2f", pagart, setlocale(LC_ALL,"Portuguese"));
 	  //getch();
 	  }
 }while (escolhaint == 1);
@@ -94,10 +66,6 @@ system("color 02");
 	return 0;
 } // fim do main
 
-<<<<<<< HEAD
-//VersÃ£o 
+//Versão  1.1
 
-=======
-//VersÃƒo  1.1
->>>>>>> Consumo_aparelho_release
 

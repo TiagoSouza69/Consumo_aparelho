@@ -2,6 +2,7 @@
 #include <locale.h>
 #include <string.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 int main(){  //inicio main
 
@@ -9,7 +10,7 @@ system("color 02");
 	
 	const float kwt = 0.82; //valor do kwt em 2025
 	char nome[25], escolha[3];
-	int p, d, escolhaint;
+	int p, d, escolhaint, i, apenasLetras = 1;
 	int co = 1000;
 	float h, pagar, pagart=0;
 	FILE *cfPtr;
@@ -36,7 +37,16 @@ system("color 02");
 	   } else{
 	   printf("\nEscreva o nome do aparelho:\n", setlocale(LC_ALL,"Portuguese"));
 	   scanf("%s", &nome);
+<<<<<<< HEAD
 	
+=======
+	   for(i = 0; i < strlen(nome); i++) {
+        if(!isalpha(nome[i])) {
+            printf("Use apenas letras\n");
+            exit(0);
+        }
+    }
+>>>>>>> Consumo_aparelho_release
 	   printf("Escreva a potência do aparelho:\n", setlocale(LC_ALL,"Portuguese"));
 	   scanf("%d", &p);
 	
@@ -66,6 +76,10 @@ system("color 02");
 	return 0;
 } // fim do main
 
+<<<<<<< HEAD
 //Versão  1.1
+=======
+//VersÃ£o  1.1
+>>>>>>> Consumo_aparelho_release
 
 

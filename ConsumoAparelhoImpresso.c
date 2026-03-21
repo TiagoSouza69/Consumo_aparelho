@@ -37,16 +37,14 @@ system("color 02");
 	   } else{
 	   printf("\nEscreva o nome do aparelho:\n", setlocale(LC_ALL,"Portuguese"));
 	   scanf("%s", &nome);
-<<<<<<< HEAD
-	
-=======
+
 	   for(i = 0; i < strlen(nome); i++) {
         if(!isalpha(nome[i])) {
             printf("Use apenas letras\n");
             exit(0);
         }
     }
->>>>>>> Consumo_aparelho_release
+
 	   printf("Escreva a potência do aparelho:\n", setlocale(LC_ALL,"Portuguese"));
 	   scanf("%d", &p);
 	
@@ -76,10 +74,6 @@ system("color 02");
 	return 0;
 } // fim do main
 
-<<<<<<< HEAD
-//Versão  1.1
-=======
-//VersÃ£o  1.1
->>>>>>> Consumo_aparelho_release
+
 
 

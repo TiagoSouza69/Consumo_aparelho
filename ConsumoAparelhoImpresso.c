@@ -21,7 +21,7 @@ system("color 02");
     printf("#        COELBA                 #\n");
     printf("#                               #\n");
     printf("#################################\n");
-    printf("  Versao 1.1 - C Language\n");
+    printf("  Versao 1.2 - C Language\n");
 
    	
 	
